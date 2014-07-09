@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2378" started-at="2014-07-09T16:05:25Z" finished-at="2014-07-09T16:05:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2378" started-at="2014-07-09T16:05:25Z" finished-at="2014-07-09T16:05:27Z">
+      <class name="interview.test.animal.dao.TestAnimalDao">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:interview.test.animal.dao.TestAnimalDao@3bef1474]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="8" started-at="2014-07-09T23:05:25Z" finished-at="2014-07-09T23:05:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:interview.test.animal.dao.TestAnimalDao@3bef1474]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1921" started-at="2014-07-09T23:05:25Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2014-07-09T23:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:interview.test.animal.dao.TestAnimalDao@3bef1474]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="192" started-at="2014-07-09T23:05:27Z" finished-at="2014-07-09T23:05:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void interview.test.animal.dao.TestAnimalDao.testFindCat() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="init()[pri:0, instance:interview.test.animal.dao.TestAnimalDao@3bef1474]" name="init" is-config="true" duration-ms="48" started-at="2014-07-09T23:05:27Z" finished-at="2014-07-09T23:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testFindCat()[pri:0, instance:interview.test.animal.dao.TestAnimalDao@3bef1474]" name="testFindCat" duration-ms="136" started-at="2014-07-09T23:05:27Z" finished-at="2014-07-09T23:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindCat -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:interview.test.animal.dao.TestAnimalDao@3bef1474]" name="destroy" is-config="true" duration-ms="3" started-at="2014-07-09T23:05:27Z" finished-at="2014-07-09T23:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:interview.test.animal.dao.TestAnimalDao@3bef1474]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2014-07-09T23:05:27Z" finished-at="2014-07-09T23:05:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void interview.test.animal.dao.TestAnimalDao.testFindCat() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:interview.test.animal.dao.TestAnimalDao@3bef1474]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="14" started-at="2014-07-09T23:05:27Z" finished-at="2014-07-09T23:05:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void interview.test.animal.dao.TestAnimalDao.testFindDog() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="init()[pri:0, instance:interview.test.animal.dao.TestAnimalDao@3bef1474]" name="init" is-config="true" duration-ms="1" started-at="2014-07-09T23:05:27Z" finished-at="2014-07-09T23:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testFindDog()[pri:0, instance:interview.test.animal.dao.TestAnimalDao@3bef1474]" name="testFindDog" duration-ms="15" started-at="2014-07-09T23:05:27Z" finished-at="2014-07-09T23:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindDog -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:interview.test.animal.dao.TestAnimalDao@3bef1474]" name="destroy" is-config="true" duration-ms="0" started-at="2014-07-09T23:05:27Z" finished-at="2014-07-09T23:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:interview.test.animal.dao.TestAnimalDao@3bef1474]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2014-07-09T23:05:27Z" finished-at="2014-07-09T23:05:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void interview.test.animal.dao.TestAnimalDao.testFindDog() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:interview.test.animal.dao.TestAnimalDao@3bef1474]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="11" started-at="2014-07-09T23:05:27Z" finished-at="2014-07-09T23:05:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void interview.test.animal.dao.TestAnimalDao.testFindDogOrCat() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testFindDogOrCat()[pri:0, instance:interview.test.animal.dao.TestAnimalDao@3bef1474]" name="testFindDogOrCat" duration-ms="5" started-at="2014-07-09T23:05:27Z" finished-at="2014-07-09T23:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindDogOrCat -->
+        <test-method status="PASS" signature="init()[pri:0, instance:interview.test.animal.dao.TestAnimalDao@3bef1474]" name="init" is-config="true" duration-ms="0" started-at="2014-07-09T23:05:27Z" finished-at="2014-07-09T23:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:interview.test.animal.dao.TestAnimalDao@3bef1474]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2014-07-09T23:05:27Z" finished-at="2014-07-09T23:05:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void interview.test.animal.dao.TestAnimalDao.testFindDogOrCat() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:interview.test.animal.dao.TestAnimalDao@3bef1474]" name="destroy" is-config="true" duration-ms="0" started-at="2014-07-09T23:05:27Z" finished-at="2014-07-09T23:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:interview.test.animal.dao.TestAnimalDao@3bef1474]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2014-07-09T23:05:27Z" finished-at="2014-07-09T23:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- interview.test.animal.dao.TestAnimalDao -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

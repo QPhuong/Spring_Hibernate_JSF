@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<posts id="1" name="User 1" text="I have a dog" 
+		profileImageUrl="test_user1_url" 
+		createdAt="2014-02-28 00:01:00:000"
+		modifiedAt="2014-02-28 00:01:00:000" />
+	<posts id="2" name="User 2" text="I have a cat" 
+		profileImageUrl="test_user2_url" 
+		createdAt="2014-02-28 00:01:00:000"
+		modifiedAt="2014-02-28 00:01:00:000" />	
+	<posts id="3" name="User 3" text="I like dog" 
+		profileImageUrl="test_user3_url" 
+		createdAt="2014-02-28 00:01:00:000"
+		modifiedAt="2014-02-28 00:01:00:000" />
+	<posts id="4" name="User 4" text="I don't like cat" 
+		profileImageUrl="test_user4_url" 
+		createdAt="2014-02-28 00:01:00:000"
+		modifiedAt="2014-02-28 00:01:00:000" />
+</dataset>

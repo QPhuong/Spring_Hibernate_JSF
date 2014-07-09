@@ -1,0 +1,91 @@
+<html xmlns="http://www.w3.org/1999/xhtml"  
+     xmlns:h="http://java.sun.com/jsf/html"      
+     xmlns:f="http://java.sun.com/jsf/core"
+     xmlns:p="http://primefaces.org/ui">  
+ <h:head>
+ 	<title>Welcome Interview Project</title>
+ 	<script type="text/javascript">
+ 	</script>
+ 	<style type="text/css">
+ 		.animalTable table thead tr {
+		    display: none;
+		}
+		.developer {
+			font-size: 30px;
+			text-align: center;
+			display:block;
+		}
+		.button {
+			width: 100%;
+			height: 100%;
+		}
+		.panelGrid>tbody>tr, .panelGrid>tbody>tr>td{
+			border: none !important;
+		}
+		.panelGrid {
+			width: 60%;
+			vertical-align: center;
+			margin-left: auto;
+   			margin-right: auto;
+		}
+		
+ 	</style>
+ </h:head>  
+ <h:body>
+ 	<p:ajaxStatus onstart="statusDialog.show()" onsuccess="statusDialog.hide()" />
+ 
+	<p:dialog widgetVar="statusDialog" modal="true" draggable="false" closable="false" resizable="false" showHeader="false">
+	    <!-- <p:graphicImage name="/demo/images/ajaxloadingbar.gif" /> -->
+	    <h:outputText value="Loading..." />
+	</p:dialog>
+	
+	<h:form>
+	<p:panelGrid styleClass="panelGrid">
+		<p:row>
+			<p:column colspan="3">
+				<h:outputLabel value="PHAM QUYNH THANH PHUONG" styleClass="developer" />
+			</p:column>
+		</p:row>
+		<p:row>
+			<p:column colspan="3"><p:separator/></p:column>
+		</p:row>
+		<p:row>
+			<p:column>
+				<p:commandButton value="Dog" id="dog" update="@form" actionListener="#{animalBean.getAnimal('Dog')}" styleClass="button" />
+			</p:column>
+			<p:column>
+				<p:commandButton value="Cat" id="cat" update="@form" actionListener="#{animalBean.getAnimal('Cat')}" styleClass="button" />
+			</p:column>
+			<p:column>
+				<p:commandButton value="Dog or Cat" id="both" update="@form" actionListener="#{animalBean.getAnimal('Both')}" styleClass="button" />
+			</p:column>
+		</p:row>
+		<p:row>
+			<p:column colspan="3">
+				<p:commandButton value="Refresh" id="refresh" update="@form" actionListener="#{animalBean.refresh()}" styleClass="button" />
+			</p:column>
+		</p:row>
+		<p:row>
+			<p:column colspan="3">
+				<p:dataTable value="#{animalBean.animalList}" var="animal" id="animalTbl" styleClass="animalTable">
+			     	<p:column style="width: 50px;">
+			     		<p:graphicImage value="#{animal.profileImageUrl}" style="width: 50px; height: 50px;"/>
+			     	</p:column>
+			     	<p:column style="width: 30%">
+			     		<h:outputText value="#{animal.name}" />
+			     	</p:column>
+			     	<p:column>
+			     		<h:outputText value="#{animal.text}" />
+			     	</p:column>
+			     </p:dataTable>
+			</p:column>
+		</p:row>
+	</p:panelGrid>
+	</h:form> 	
+	<script type="text/javascript">
+		$(document).ready(function(){
+			//$("[id$=dog]").click();	
+		})
+	</script>
+</h:body>
+</html> 
